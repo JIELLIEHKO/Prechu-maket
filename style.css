@@ -96,7 +96,7 @@ body {
 .hero {
 	height: 390px;
 	width: 100%;
-	background-image: url(img/background.png);
+	background-image: url(/img/background.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	display: flex;
@@ -192,14 +192,43 @@ body {
 }
 
 
+/* Main Bottom */
 
+.shop-container {
+ 	text-align: center;
+}
 
+.shop-title {
+	color: #6f7173;
+	margin-bottom: 40px;
+	font-weight: 100;
+	font-size: 60px;
+}
 
+.shop-img {
+	height: 360px;
+	width: 415px;
+}
 
+.bullet-container {
+	margin: 0 auto;
+	width: 90%;
+}
 
+.shop-subtitle {
+	color: #6f7173;
+	margin-bottom: 40px;
+	font-weight: 100;
+	font-size: 48px;
+}
 
+.shop-text {
+	color: #909090;
+	line-height: 80px;
+	font-size: 14px;
+}
 
-
+/* Main Bottom */
 
 
 
