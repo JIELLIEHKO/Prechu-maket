@@ -1,5 +1,212 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: "Segoe WP", sans-serif;
 }
+
+
+
+/* Nav */
+
+
+.header {
+	height: 110px;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 480) {
+	.header {
+		display: flex;
+	}
+}
+
+/*.logo-container {
+	margin: 20px 0;
+}*/
+
+.logo-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+}
+
+.logo-icon {
+	height: 68px;
+	width: 68px;
+}
+
+.logo-text {
+	margin: 0 0 0 15px;
+	font-size: 56px;
+}
+
+
+/* Drop menu */
+
+.dropmenu {
+	position: relative;
+	display: inline-block;
+}
+       /* Нужна оптимизация */
+
+.nav-main {
+	height: 66px;
+	width: 80px;
+}
+
+.drop-button {
+	height: 66px;
+	width: 80px;
+}
+
+.drop-img {
+	height: 100%;
+	width: 100%;
+}
+       /* Нужна оптимизация */
+
+.drop-child {
+	display: none;
+	background-color: black;
+	min-width: 200px;
+}
+
+.drop-child a {
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropmenu:hover .drop-child {
+	display: block;
+}
+
+/* Drop menu */
+/* Nav*/
+
+/* Main */
+/* Hero */
+
+.hero {
+	height: 390px;
+	width: 100%;
+	background-image: url(img/background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-container {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-left {
+	height: 350px;
+	width: 270px;
+}
+
+.hero-right {
+	height: 350px;
+	margin-top: 40px;
+}
+
+.hero-iphone {
+	height: 100%;
+	width: 100%;
+}
+
+.hero-content {
+	font-size: 36px;
+	line-height: 55px;
+	color: #fff;
+	margin: 0 0 40px 0;
+}
+
+.hero-title {
+	font-size: 46px;
+	color: #fff;
+	font-weight: 100;
+	margin: 10px 0;
+}
+
+.hero-button-link {
+	display: flex;
+	align-items: center;
+	height: 55px;
+	width: 340px;
+	font-size: 46px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #5094f2;
+	padding: 20px 20px;
+}
+
+.hero-button-img {
+	height: 60px;
+	width: 60px;
+	margin-right: 20px;
+}
+
+/*Main Top*/
+
+.main-content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.col-1 {
+	display: flex;
+	align-items: center;
+	margin: 40px 0;
+}
+
+.main-icon {
+	height: 237px;
+	width: 237px;
+}
+
+.col-content {
+	margin: 0 0 0 40px;
+	width: 75%;
+	font-size: 24px;
+	color: #909090;
+}
+
+.col-title {
+	font-size: 54px;
+	color: #5094f2;
+	margin: 0 0 20px 0;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
