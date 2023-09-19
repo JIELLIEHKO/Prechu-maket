@@ -1,0 +1,13 @@
+.section {
+  overflow: hidden;
+}
+.section-image{
+  max-width: 216px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .section-cart .section-image{
+    max-width: 100%;
+  } 
+}

@@ -1,14 +1,16 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "Segoe WP", sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
 }
+
 
 
 
 /* Nav */
 
-
+/*
 .header {
 	height: 110px;
 	width: 90%;
@@ -35,7 +37,7 @@ body {
 	font-size: 56px;
 	letter-spacing: 5px;
 }
-
+*/
 
 /* Drop menu */
 
@@ -77,7 +79,7 @@ body {
 .dropmenu:hover .drop-child {
 	display: block;
 }*/
-
+/*
 @media screen and (max-width: 960px) {
 	.nav-main {
 		height: 66px;
@@ -158,141 +160,7 @@ body {
 /* Main */
 /* Hero */
 
-@media screen and (max-width: 960px) {
-	.hero {
-	height: 390px;
-	width: 100%;
-	background-image: url(img/background.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
 
-.hero-container {
-	width: 90%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.hero-left {
-	height: 350px;
-	width: 270px;
-}
-
-.hero-right {
-	height: 350px;
-	margin-top: 40px;
-}
-
-.hero-iphone {
-	height: 100%;
-	width: 100%;
-}
-
-.hero-content {
-	font-size: 36px;
-	line-height: 55px;
-	color: #fff;
-	margin: 0 0 40px 0;
-}
-
-.hero-title {
-	font-size: 46px;
-	color: #fff;
-	font-weight: 100;
-	margin: 10px 0;
-}
-
-.hero-button-link {
-	display: flex;
-	align-items: center;
-	height: 55px;
-	width: 340px;
-	font-size: 46px;
-	text-decoration: none;
-	color: #fff;
-	background-color: #5094f2;
-	padding: 20px 20px;
-}
-
-.hero-button-img {
-	height: 60px;
-	width: 60px;
-	margin-right: 20px;
-}
-}
-
-@media screen and (min-width: 960px) {
-	.hero {
-		height: 390px;
-		width: 100%;
-		background-image: url(img/background.png);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	.hero-container {
-		width: 90%;
-		margin: 0 auto;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	.hero-left {
-		height: 350px;
-		width: 270px;
-	}
-
-	.hero-right {
-		height: 350px;
-		margin-top: 40px;
-	}
-
-	.hero-iphone {
-		height: 100%;
-		width: 100%;
-	}
-
-	.hero-content {
-		font-size: 36px;
-		line-height: 55px;
-		color: #fff;
-		margin: 0 0 40px 0;
-	}
-
-	.hero-title {
-		font-size: 46px;
-		color: #fff;
-		font-weight: 100;
-		margin: 10px 0;
-	}
-
-	.hero-button-link {
-		display: flex;
-		align-items: center;
-		height: 55px;
-		width: 340px;
-		font-size: 46px;
-		text-decoration: none;
-		color: #fff;
-		background-color: #5094f2;
-		padding: 20px 20px;
-	}
-
-	.hero-button-img {
-		height: 60px;
-		width: 60px;
-		margin-right: 20px;
-	}
-}
 
 /*.hero {
 	height: 390px;
@@ -361,7 +229,7 @@ body {
 }
 */
 /*Main Top*/
-
+/*
 .main-content {
 	width: 100%;
 	margin: 0 auto;
@@ -398,7 +266,7 @@ body {
 }*/
 
 /* Main Bottom */
-
+/*
 .shop-container {
  	text-align: center;
 }
@@ -436,7 +304,7 @@ body {
 /* Main Bottom */
 
 /* Footer */
-
+/*
 .footer {
 	border-top: 2px solid grey;
 	text-align: center;

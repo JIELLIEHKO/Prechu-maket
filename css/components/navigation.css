@@ -1,0 +1,43 @@
+.nav {
+  display: none;
+}
+.nav .nav-item{
+  padding:0 10px;
+}
+.nav-mobile {
+  position: relative;
+
+}
+.nav-mobile ul{
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: brown;
+  padding:10px;
+  margin: 0;
+
+}
+.nav-mobile .nav-toggle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: blue;
+}
+.nav-mobile ul.is-open {
+  display: block;
+}
+
+.nav-mobile ul li{
+  padding:0 10px;
+}
+
+@media (min-width: 960px) {
+  .nav {
+    display: flex;
+  }
+  .nav-mobile {
+    display: none;
+  }
+}

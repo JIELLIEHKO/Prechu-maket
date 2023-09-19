@@ -2,97 +2,154 @@
 <html lang="en">
 <head>
 	<title>Prechu</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/components/header.css">
+	<link rel="stylesheet" type="text/css" href="css/components/hero.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header class="header">
-		<div class="logo-container">
-			<a href="#" class="logo-link">
-				<img class="logo-icon" src="icon/logo-img.png" alt="logo-icon" >
-				<p class="logo-text">Prechu</p>
-			</a>
-		</div>
-		<div class="nav-main">
-			<div class="dropmenu">
-				<div class="drop-button">
-					<img src="icon/breadcrumb.png" alt="drop-img" class="drop-img">
-				</div>
-				<div class="drop-child">
-					<a href="#" class="nav-link">Home</a>
-					<a href="#" class="nav-link">Product</a>
-					<a href="#" class="nav-link">Services</a>
-					<a href="#" class="nav-link">Contact</a>
+
+	<section class="section-header">
+		<header class="header">
+			<div class="logo-container">
+				<a href="#" class="logo-link">
+					<img class="logo-icon" src="icon/logo-img.png" alt="logo-icon" >
+					<p class="logo-text">Prechu</p>
+				</a>
+			</div>
+			<div class="nav-main">
+				<div class="drop-menu">
+
+					<!-- Desktop version -->
+					<nav class="nav-desk">
+						<a href="#" class="nav-link">Home</a>
+						<a href="#" class="nav-link">Product</a>
+						<a href="#" class="nav-link">Services</a>
+						<a href="#" class="nav-link">Contact</a>
+					</nav>
+
+
+					<!-- Mobile version -->
+					<div class="nav-mobile">
+						<div class="menu-btn">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="menu">
+							<nav>
+								<ul>
+									<li><a href="#" class="nav-link">Home</a></li>
+									<li><a href="#" class="nav-link">Product</a></li>
+									<li><a href="#" class="nav-link">Services</a></li>
+									<li><a href="#" class="nav-link">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+
 				</div>
 			</div>
-		</div>
-	</header>
-	<main>
-		<section class="hero">
-			<div class="hero-container">
-				<div class="hero-left">
-					<img class="hero-iphone" src="img/iphone.png" alt="hero-iphone">
-				</div>
-				<div class="hero-right">
-					<p class="hero-content"><span class="hero-title">Lorem ipsum is simply</span><br> dummy text of the<br> printing & typesetting</p>
-					<div class="hero-button">
-						<a href="#" class="hero-button-link">
-							<img class="hero-button-img" src="icon/button.png" alt="hero-button-img">
-							<p class="hero-button-text">Sign up now</p>
-						</a>
+		</header>
+	</section>
+
+
+
+	<section class="section-main">
+		<main>
+
+
+			<section class="hero">
+				<div class="hero-background">
+					<div class="hero-container">
+						<div class="hero-left">
+							<img src="img/iphone.svg" alt="hero-iphone">
+						</div>
+						<div class="hero-right">
+							<div class="hero-content">
+								<p><span class="hero-title">Lorem ipsum is simply</span>
+								<p>dummy text of the</p>
+								<p>printing & typesetting</p>
+							</div>
+							<div class="hero-button">
+								<a href="#">
+									<img src="icon/button.png" alt="hero-button-img">
+									<p>Sign up now</p>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="main-content">
-			<div class="main-top">
-				<div class="col-1">
-					<img src="icon/pen.png" alt="main-icon" class="main-icon">
-					<div class="col-content">
-						<h4 class="col-title">Contrary to popular</h4>
-						<p class="col-text">Lorem ipsum is not simply random text. It has roots in a piece</p>
+			</section>
+
+
+			<section class="main-content">
+				<div class="main-top">
+					<div class="col-1">
+						<img src="icon/pen.png" alt="main-icon" class="main-icon">
+						<div class="col-content">
+							<h4 class="col-title">Contrary to popular</h4>
+							<p class="col-text">Lorem ipsum is not simply random text. It has roots in a piece</p>
+						</div>
+					</div>
+					<hr class="main-line">
+					<div class="col-1">
+						<img src="icon/monitor.png" alt="main-icon" class="main-icon">
+						<div class="col-content">
+							<h4 class="col-title">Contrary to popular</h4>
+							<p class="col-text">Lorem ipsum is not simply random text. It has roots in a piece</p>
+						</div>
+					</div>
+					<hr class="main-line">
+					<div class="col-1">
+						<img src="icon/bag.png" alt="main-icon" class="main-icon">
+						<div class="col-content">
+							<h4 class="col-title">Contrary to popular</h4>
+							<p class="col-text">Lorem ipsum is not simply random text. It has roots in a piece</p>
+						</div>
+					</div>
+					<hr class="main-line">
+				</div>
+				<div class="main-bottom">
+					<div class="shop-container">
+						<h2 class="shop-title">The Shopping cart</h2>
+						<img src="img/shop.png" alt="shop-img" class="shop-img">
+					</div>
+					<div class="bullet-container">
+						<h3 class="shop-subtitle">Some Bullet text here</h3>
+						<p class="shop-text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting
+							Lorem Ipsum has been the industry's standard dummy text ever
+							When an unknown printer took a galley of type and scrambled
+							It to make a type specimen book. It has survived not only five centuries
+							But also the leap into electronic typesetting,
+							Remaining essentially unchanged. It was popularised
+							The release of Letraset sheets containing Lorem Ipsum passages
+						</p>
 					</div>
 				</div>
-				<hr class="main-line">
-				<div class="col-1">
-					<img src="icon/monitor.png" alt="main-icon" class="main-icon">
-					<div class="col-content">
-						<h4 class="col-title">Contrary to popular</h4>
-						<p class="col-text">Lorem ipsum is not simply random text. It has roots in a piece</p>
-					</div>
-				</div>
-				<hr class="main-line">
-				<div class="col-1">
-					<img src="icon/bag.png" alt="main-icon" class="main-icon">
-					<div class="col-content">
-						<h4 class="col-title">Contrary to popular</h4>
-						<p class="col-text">Lorem ipsum is not simply random text. It has roots in a piece</p>
-					</div>
-				</div>
-				<hr class="main-line">
-			</div>
-			<div class="main-bottom">
-				<div class="shop-container">
-					<h2 class="shop-title">The Shopping cart</h2>
-					<img src="img/shop.png" alt="shop-img" class="shop-img">
-				</div>
-				<div class="bullet-container">
-					<h3 class="shop-subtitle">Some Bullet text here</h3>
-					<p class="shop-text">
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						Lorem Ipsum has been the industry's standard dummy text ever
-						When an unknown printer took a galley of type and scrambled
-						It to make a type specimen book. It has survived not only five centuries
-						But also the leap into electronic typesetting,
-						Remaining essentially unchanged. It was popularised
-						The release of Letraset sheets containing Lorem Ipsum passages
-					</p>
-				</div>
-			</div>
-		</section>
-	</main>
-	<footer class="footer">
-		<p class="footer-text">Copyright © 2012-2013 cssautor.com</p>
-	</footer>
-</body>	
+			</section>
+		</main>
+	</section>
+	<section class="section-footer">
+		<footer class="footer">
+			<p class="footer-text">Copyright © 2012-2013 cssautor.com</p>
+		</footer>
+	</section>
+
+</body>
+
+<script>
+	let menuBtn = document.querySelector('.menu-btn');
+	let menu = document.querySelector('.menu');
+	menuBtn.addEventListener('click', function(){
+		menu.classList.toggle('active');
+	})
+</script>
+
 </html>

@@ -1,0 +1,126 @@
+.header {
+  height: 110px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /*background-color: red;*/
+}
+
+.logo-container {
+ /* background-color: green;*/
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+
+.logo-icon {
+  height: 68px;
+  width: 68px;
+}
+
+.logo-text {
+  margin: 0 0 0 15px;
+  font-size: 56px;
+  letter-spacing: 5px;
+}
+
+/* Drop menu */
+
+.menu-btn {
+  width: 60px;
+  height: 45px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  background-color: #5094f2;
+  border-radius: 5px;
+}
+
+.menu-btn span {
+  width: 37px;
+  height: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.menu-btn span:nth-of-type(2) {
+  top: calc(50% - 10px);
+}
+
+.menu-btn span:nth-of-type(3) {
+  top: calc(50% + 10px);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background: #5094f2;
+  font-size: 50px;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+
+.menu.active {
+  transform: translateX(0);
+}
+
+.menu li, .menu a {
+  list-style-type: none;
+  color: white;
+  margin: 30px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* Drop menu */
+
+.nav-desk {
+  display: none;
+}
+
+@media screen and (min-width:1200px) {
+  .nav-mobile {
+    display: none;
+  }
+
+  .header {
+    width: 80%;
+  }
+
+  .nav-desk {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .nav-desk a {
+    font-size: 20px;
+    color: #6c6c6c;
+    margin-right: 40px;
+  }
+
+  .nav-desk a:last-child {
+    margin-right: 0;
+  }
+
+  .nav-desk a:hover {
+    text-decoration: underline #5094f2 3px;
+  }
+
+}
