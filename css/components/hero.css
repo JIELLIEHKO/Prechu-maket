@@ -30,6 +30,7 @@
   font-size: 27px;
   color: #ffF;
   margin: 10px 0;
+  font-weight: 300;
 }
 
 .hero-content p {
@@ -37,6 +38,7 @@
   line-height: 35px;
   color: #fff;
   margin: 0;
+  font-weight: 300;
 }
 
 .hero-content  p:last-child {

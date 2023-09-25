@@ -5,11 +5,6 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  /*background-color: red;*/
-}
-
-.logo-container {
- /* background-color: green;*/
 }
 
 .logo-link {
@@ -28,8 +23,15 @@
 .logo-text {
   margin: 0 0 0 15px;
   font-size: 56px;
-  letter-spacing: 5px;
+  letter-spacing: 0.42px;
+  font-weight: 300;
+
 }
+
+
+
+
+
 
 /* Drop menu */
 
@@ -89,7 +91,16 @@
   text-decoration: none;
 }
 
-/* Drop menu */
+.nav-link:hover {
+  color: greenyellow;
+}
+
+  /* Drop menu */
+
+
+
+
+
 
 .nav-desk {
   display: none;
@@ -111,6 +122,7 @@
 
   .nav-desk a {
     font-size: 20px;
+    font-weight: 400;
     color: #6c6c6c;
     margin-right: 40px;
   }
